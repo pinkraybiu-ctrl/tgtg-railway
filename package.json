@@ -1,0 +1,11 @@
+{
+  "name": "tgtg-railway",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "XDG_CONFIG_HOME=/data npx toogoodtogo-watcher watch"
+  },
+  "dependencies": {
+    "toogoodtogo-watcher": "^3.0.0"
+  }
+}
