@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "XDG_CONFIG_HOME=/data npx toogoodtogo-watcher watch"
+    "start": "node index.js"
   },
   "dependencies": {
+    "express": "^4.19.2",
     "toogoodtogo-watcher": "^3.0.0"
   }
 }
